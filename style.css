@@ -1,0 +1,463 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    flex-direction: row;
+    gap: 27rem;
+    background-color: rgb(0,0,0);
+    opacity: 0.7;
+}
+
+h1{
+    margin: 10px 35px;
+    color: white;
+   
+}
+
+#navbar ul{
+    display: flex;
+    align-items: baseline;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 0.8em;
+    height: 27px;
+    
+}
+#navbar ul li a{
+    color: rgb(197, 184, 184);
+    display: block;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: white;
+}
+
+#navigation{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 6%;
+    height: 50%;
+}
+#navigation{
+   
+    right: 0px;
+    position: fixed;
+    bottom: 7em;
+    height: 30%;
+    width: 8%;
+    background-color: rgb(0,0,0);
+    opacity: 0.7;
+
+    
+    
+}
+
+#navigation li{
+    list-style: none;
+}
+#navigation li a{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: -2em;
+    font-size: 20px;
+
+}
+
+
+
+
+.home{
+    position: relative;
+    z-index: -1;
+}
+
+
+.img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.img img{
+    width: 100%;
+}
+
+.adventure{
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .center{
+    width: 13%;
+    border: 2px solid white;
+    padding: 15px 20px ;
+    cursor: pointer;
+    
+}
+.center:hover{
+    transition: 1s ease-in;
+    color: black;
+    background-color: white;
+} */
+
+
+.adventure h1{
+    color: white;
+    font-size: 3em;
+}
+
+.search{
+    border-bottom: 1px solid rgb(197, 184, 184);
+}
+
+.search:hover{
+    background-color: black;
+}
+
+button.btn{
+    font-size: 1em;
+    height: 4rem;
+    width: 10rem;
+    border: 2px solid white ;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    /* display: contents; */
+}
+
+button.btn:hover{
+     background-color: white;
+     color: black;
+ }
+  
+
+.container{
+    height: 722px;
+}
+
+.consept{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 722px;
+    background-color: black;
+    
+   
+}
+
+
+
+.new{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.new h1{
+    font-size: 3em;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2em;
+    height: 480px;
+    align-items: center;
+}
+
+button.button{
+    width: 40%;
+    height: 7%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    bottom: 30%;
+    left: 40%;
+    font-size: 2em;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+button.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.img3{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.img3 h1{
+    
+    position: absolute;
+    left: 3em;
+    font-size: 36px;
+    opacity: 0 ;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    text-align: center;
+}
+.img3 h1:hover{
+    color: yellow;
+    opacity: 1;
+    
+}
+.cut{
+    background-color: black;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.four{
+    position: relative;
+    bottom: -4em;
+}
+
+.four h1{
+    font-size: 3em;
+    
+}
+.four h2{
+    color: white;
+    text-align: center;
+}
+
+.img4{
+    position: absolute;
+    left: -17em;
+    bottom: 13em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img4 h1{
+   font-size: small;
+}
+.over{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0em;
+    width: 35%;
+    height: 77%;
+    padding: 3em;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(0,0,0);
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.overlay h3{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img5 img{
+    width: 100%;
+    height: 77%;
+  
+    
+}
+
+.full{
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+     
+    
+}  
+
+
+
+ .inputbox{
+    color: white;
+    display: flex;
+ }
+
+ .inputbox input{
+    background-color: transparent;
+    border-color: white;
+    height: 50px;
+ }
+
+ .inputbox label{
+    font-size: large;
+ }
+
+.outline{
+    color: white;
+}
+.outline input{
+    background-color: transparent;
+    border-color: white;
+    height: 50px;
+    width: 33em;
+}
+
+.overall .msg input{
+    height: 10em;
+    width: 33em;
+}
+
+.overall .button button{
+  background-color: transparent;
+  color: white;
+  height: 50px;
+  width: 10em;
+  border-color: white;
+
+}
+
+.overall label{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.overall{
+    margin: 30%;
+}
+
+.contact h1{
+    font-size: 3em;
+}
+
+.contact h2{
+    color: white;
+    width: 60%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin: 10%;
+}
+
+
+.producthover{
+    position: relative;
+    width: 29rem;
+    height: 29rem;
+    overflow: hidden;
+}
+/* .producthover img{
+    width: 27rem;
+    height: 29rem;
+} */
+
+.caption{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+opacity: 0;
+transition: all 0.5s;
+
+}
+.producthover:hover .caption{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.producthover :hover img {
+    transform: scale(1.3);
+}
+
+.fullbin{
+    width: 100%;
+    height: 77vh;
+    background-color: rgb(19, 18, 18);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.bin{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+.bin h1{
+    font-size: 3em;
+}
+.bin h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.box label{
+    color: white;
+    font-size: large;
+}
+.box input{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border-color: white;
+    width: 45em;
+    height: 40px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(31, 30, 30);
+}
+
+.fit  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20%;
+   color: white;
+}
+.com{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: dashed;
+    color: white;
+}
