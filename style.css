@@ -1,78 +1,97 @@
-
-
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'roboto', sans-serif;
+    /* outline: 15px solid rgb(55, 0, 255); */
 }
 
-#navbar{
+
+#navbar {
     display: flex;
     align-items: center;
     position: fixed;
-    width: 100%;
     height: 15%;
+    width: 100%;
     flex-direction: row;
     gap: 27rem;
-    background-color: rgb(0,0,0);
+    background-color: rgb(0, 0, 0);
     opacity: 0.7;
+    z-index: 1;
 }
 
-h1{
-    margin: 10px 35px;
+h1 {
+    width: 310px;
+    text-align: center;
     color: white;
-   
+    font-size: 2em;
+
 }
 
-#navbar ul{
+#navbar ul {
     display: flex;
     align-items: baseline;
     width: 45%;
     justify-content: space-evenly;
 }
 
-#navbar ul li{
+#navbar ul li {
     list-style: none;
-    font-size: 0.8em;
+    font-size: 1em;
     height: 27px;
-    
+
 }
-#navbar ul li a{
+
+#navbar ul li a {
     color: rgb(197, 184, 184);
     display: block;
     text-decoration: none;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     color: white;
 }
 
-#navigation{
+input[type="text"] {
+    text-align: center;
+    padding: 3px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    height: 20px;
+}
 
+
+
+
+#navigation {
+
+
+    position: absolute;
+    bottom: 7em;
+    height: 30%;
+    opacity: 0.7;
+    z-index: 111;
+}
+
+#navigation ul {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    height: 30%;
+    width: 8%;
+    right: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
-    width: 6%;
-    height: 50%;
-}
-#navigation{
-   
-    right: 0px;
-    position: fixed;
-    bottom: 7em;
-    height: 30%;
-    width: 8%;
-    background-color: rgb(0,0,0);
-    opacity: 0.7;
 
-    
-    
 }
 
-#navigation li{
+#navigation li {
     list-style: none;
+    display: flex;
+    justify-content: end;
 }
-#navigation li a{
+
+#navigation li a {
     color: rgb(255, 255, 255);
     position: relative;
     bottom: -2em;
@@ -80,26 +99,23 @@ h1{
 
 }
 
-
-
-
-.home{
+.home {
     position: relative;
     z-index: -1;
 }
 
 
-.img{
+.img {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.img img{
+.img img {
     width: 100%;
 }
 
-.adventure{
+.adventure {
     position: absolute;
     text-align: center;
     height: 100%;
@@ -110,123 +126,116 @@ h1{
     align-items: center;
 }
 
-/* .center{
-    width: 13%;
-    border: 2px solid white;
-    padding: 15px 20px ;
+.advanture button.btn2 {
+    height: 7%;
+    width: 17%;
     cursor: pointer;
-    
+    background: transparent;
+    color: rgb(121, 22, 22);
+    font-size: 18px;
+    transition: ease;
 }
-.center:hover{
-    transition: 1s ease-in;
-    color: black;
+
+.advanture button.btn2:hover hover {
     background-color: white;
-} */
+    color: black;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: translateY(-10px);
 
 
-.adventure h1{
+}
+
+
+.adventure h1 {
     color: white;
-    font-size: 3em;
+    font-size: 4em;
+    width: 50%;
 }
 
-.search{
-    border-bottom: 1px solid rgb(197, 184, 184);
+.adventure h2 {
+    color: white;
+    font-size: 5em;
+    width: 1em;
+    position: relative;
+    top: 200px;
+
 }
 
-.search:hover{
-    background-color: black;
-}
-
-button.btn{
-    font-size: 1em;
-    height: 4rem;
-    width: 10rem;
-    border: 2px solid white ;
+button.btn2 {
+    height: 7%;
+    width: 15%;
     background-color: transparent;
     color: white;
-    cursor: pointer;
-    /* display: contents; */
+    border: 2px solid;
+    font-size: 25px;
+    font-family: auto;
 }
 
-button.btn:hover{
-     background-color: white;
-     color: black;
- }
-  
 
-.container{
+/* .home .adventure button.btn:hover {
+    background-color: white;
+    color: black;
+} */
+
+.container {
     height: 722px;
 }
 
-.consept{
+.consept {
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 722px;
     background-color: black;
-    
-   
+
+
 }
 
 
 
-.new{
+.new {
     position: relative;
     display: flex;
     flex-direction: column;
-   
+
 }
 
-.new h1{
+.new h1 {
     font-size: 3em;
     display: flex;
     justify-content: space-around;
-    padding-left: 2em;
+    width: 300px;
     height: 480px;
     align-items: center;
 }
 
-button.button{
+button.button {
     width: 40%;
     height: 7%;
     border: 2px solid white;
-    background-color: transparent;
+    background: transparent;
     color: white;
-    position: relative;
-    bottom: 30%;
-    left: 40%;
-    font-size: 2em;
-    font-weight: 100;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-family: auto;
+    position: absolute;
+    top: 45%;
+    left: 30%;
 }
-button.button:hover{
+
+button.button:hover {
     background-color: white;
     color: black;
 }
 
-.img3{
+.img3 {
     display: flex;
     flex-direction: row;
-    
-    
+
+
 }
 
-.img3 h1{
-    
-    position: absolute;
-    left: 3em;
-    font-size: 36px;
-    opacity: 0 ;
-    transition: all 0.3s ease-in;
-    cursor: pointer;
-    text-align: center;
-}
-.img3 h1:hover{
-    color: yellow;
-    opacity: 1;
-    
-}
-.cut{
+
+.cut {
     background-color: black;
     width: 100%;
     height: 750px;
@@ -235,229 +244,568 @@ button.button:hover{
 
 }
 
-.four{
+.four {
     position: relative;
     bottom: -4em;
 }
 
-.four h1{
+.four h1 {
     font-size: 3em;
-    
+
 }
-.four h2{
+
+.four h2 {
     color: white;
     text-align: center;
 }
 
-.img4{
-    position: absolute;
-    left: -17em;
-    bottom: 13em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.img4 h1{
-   font-size: small;
-}
-.over{
-    position: relative;
+.img4 {
+    width: 100%;
 }
 
-.overlay{
+.img4 {
+    position: absolute;
+    /* left: -17em; */
+    bottom: 13em;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.all {
+    position: relative;
+    top: 25px;
+}
+
+img.class {
+    width: 15vw;
+}
+
+.imgA h2 {
+    text-decoration: line-through;
+    font-size: 12px;
+
+}
+
+.imgB h2 {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.imgC h2 {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.img4 :hover {
+    transform: scale(1.1);
+}
+
+
+.img4 h1 {
+    font-size: small;
+}
+
+.over {
+    position: relative;
+    height: 640px;
+}
+
+.overlay {
     position: absolute;
     top: 0em;
     width: 35%;
-    height: 77%;
+    height: 78%;
     padding: 3em;
     font-size: 1.5em;
     color: white;
-    background-color: rgb(0,0,0);
+    background-color: rgb(0, 0, 0);
     opacity: 0.7;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.overlay h3{
+
+.overlay h3 {
     font-size: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.img5 img{
-    width: 100%;
-    height: 77%;
-  
-    
+    font-weight: 300;
 }
 
-.full{
+.overlay h5 {
+    font-weight: 300;
+}
+
+.img5 img {
+    width: 100%;
+    height: 78%;
+
+
+}
+
+.full {
     width: 100%;
     height: 130vh;
     background-color: black;
     display: flex;
     justify-content: space-between;
-     
-    
-}  
 
 
+}
 
- .inputbox{
+
+.overall {
+    margin: 30%;
+
+}
+
+.inputbox {
     color: white;
     display: flex;
- }
+    gap: 10%;
+}
 
- .inputbox input{
+.inputbox input {
     background-color: transparent;
+
     border-color: white;
     height: 50px;
- }
+    width: 16em;
+}
 
- .inputbox label{
-    font-size: large;
- }
-
-.outline{
+input {
     color: white;
 }
-.outline input{
+
+.inputbox label {
+    font-size: large;
+}
+
+.outline {
+    color: white;
+}
+
+.outline input {
     background-color: transparent;
     border-color: white;
     height: 50px;
-    width: 33em;
+    width: 34em;
 }
 
-.overall .msg input{
+.overall .msg input {
     height: 10em;
-    width: 33em;
+    width: 34em;
 }
 
-.overall .button button{
-  background-color: transparent;
-  color: white;
-  height: 50px;
-  width: 10em;
-  border-color: white;
+.overall .button button {
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 12em;
+    border-color: white;
+    position: relative;
+    right: -22em;
+
 
 }
 
-.overall label{
+.overall label {
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
 }
-.overall{
-    margin: 30%;
-}
 
-.contact h1{
+.contact h1 {
     font-size: 3em;
+    font-weight: 400;
 }
 
-.contact h2{
+.contact h2 {
     color: white;
     width: 60%;
+    font-weight: 300;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-     margin: 10%;
+    margin: 10%;
 }
 
 
-.producthover{
+.producthover {
     position: relative;
     width: 29rem;
     height: 29rem;
     overflow: hidden;
-}
-/* .producthover img{
-    width: 27rem;
-    height: 29rem;
-} */
 
-.caption{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: black;
-color: white;
-opacity: 0;
-transition: all 0.5s;
 
 }
-.producthover:hover .caption{
+
+.producthover img {
+    transition: all 1.5s;
+
+}
+
+.producthover img :hover {
+    transform: translateY(-10px);
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.producthover:hover .caption {
     opacity: 1;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .producthover :hover img {
     transform: scale(1.3);
 }
 
-.fullbin{
+.fullbin {
     width: 100%;
     height: 77vh;
     background-color: rgb(19, 18, 18);
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+
 }
-.bin{
+
+.bin {
     display: flex;
     flex-direction: column;
-   align-items: center;
-   
+    align-items: center;
+
 }
-.bin h1{
+
+.bin h1 {
     font-size: 3em;
 }
-.bin h2{
+
+.bin h2 {
     color: white;
     font-size: 30px;
     font-weight: 500;
 }
-.box label{
+
+.box label {
     color: white;
     font-size: large;
 }
-.box input{
+
+.box input {
     background-color: transparent;
     color: white;
     text-align: center;
     border-color: white;
     width: 45em;
-    height: 40px;
+    height: 50px;
+    font-size: 15px;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.foot{
-    display: flex;
+.footerpart {
     width: 100%;
-    height: 30vh;
+    height: 180px;
     background-color: rgb(31, 30, 30);
+
 }
 
-.fit  {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 20%;
-   color: white;
-}
-.com{
-    display: inline-block;
-    list-style-type: none;
-    text-decoration: dashed;
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    align-items: center;
+    /* gap: 7em; */
+    justify-content: space-around;
+    justify-content: center;
     color: white;
+}
+
+.com ul {
+    display: flex;
+    gap: 2em;
+
+
+}
+
+.com ul li {
+    color: rgb(158, 158, 158);
+    list-style: none;
+    font-size: 17px;
+    font-weight: 550;
+    border-bottom: 1px solid;
+}
+
+.fit {
+    color: rgb(158, 158, 158);
+    font-size: 17px;
+    font-weight: 550;
+    display: flex;
+    gap: 7px;
+}
+
+.fit .wix {
+    border-bottom: 1px solid;
+}
+
+@media(min-width:320px) and (max-width:575px) {
+    nav {
+        width: 100vw;
+        height: 80px;
+    }
+    
+    #navbar ul li a {
+        font-size: 7px;
+
+    }
+
+    input[type="text"] {
+        width: 40%;
+        height: 5px;
+        font-size: 7px;
+    }
+
+    nav ul {
+        width: 50%;
+
+    }
+
+    #navbar {
+        width: 100vw;
+        height: 10%;
+        gap: 1rem;
+    }
+
+    #navbar h1 {
+        font-size: 13px;
+    }
+
+
+    #navigation ul {
+        right: 0%;
+        height: 28%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .adventure h1 {
+        font-size: 20px;
+    }
+
+    button.btn2 {
+        font-size: 10px;
+    }
+
+    .adventure h2 {
+        font-size: 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button.button {
+        font-size: 8px;
+        height: 15px;
+    }
+
+    .new h1 {
+        font-size: 11px;
+        height: 140px;
+    }
+    .img2 {
+        height: 59%;
+        width: 26vw;
+    }
+
+    .consept {
+        width: 100vw;
+        height: 105.5vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        height: 50%;
+    }
+
+    
+    img {
+      height: 83vw;
+      width: 100vw;
+   }
+
+    .over {
+        height: 152px;
+    }
+
+    .overlay {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+        height: 205px;
+    }
+
+    .overlay h3 {
+        font-size: 2em;
+    }
+
+    
+    .overlay h5 {
+        height: 91%;
+        font-size: 11px;
+    }
+    .producthover img {
+        width: 100%;
+        height: 20px;
+    }
+
+    .producthover {
+        
+        height: 15rem;
+    }
+
+    .caption h2 {
+        font-size: 12px;
+    }
+
+    .full {
+        height: 160vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact h1 {
+        font-size: 25px;
+    }
+
+    .contact h2 {
+        font-size: 12px;
+    }
+
+    .overall {
+        margin: 72px;
+    }
+
+    .four h1 {
+        font-size: 22px;
+    }
+
+    .four h2 {
+        font-size: 15px;
+    }
+
+    .all h1 {
+        font-size: 9px;
+    }
+
+    .four h2 {
+        font-size: 9px;
+    }
+
+    .fullbin {
+        height: 90vw;
+    }
+
+    .outline input {
+        width: 72vw;
+        height: 15%;
+
+    }
+
+    .inputbox input {
+        width: 30vw;
+        height: 15%;
+    }
+
+    .overall .msg input {
+        width: 72vw;
+        height: 15%;
+    }
+
+    .overall .button button {
+        width: 21vw;
+        left: 53vw;
+        height: 15%;
+    }
+
+    .overall label {
+        font-size: 10px;
+    }
+
+    .bin h1 {
+        font-size: 22px;
+    }
+
+    .bin h2 {
+        font-size: small;
+    }
+
+    .box label {
+        font-size: 10px;
+    }
+
+    .box input {
+        width: 60vw;
+        height: 15%;
+        font-size: 12px;
+    }
+
+    .img3 {
+        width: 100vw;
+    }
+    .main {
+        height: 166vh;
+        background-color: black;
+    }
+    .cut {
+        height: 660px;
+    }
+    img.class {
+        width: 120px;
+        height: 150px;
+    }
+    .img4 {
+        
+        display: flex;
+        flex-direction: column;
+        height: 0px;
+    }
+    .fit{
+        font-size:12px;
+    }
+    .com ul li{
+        font-size: 10px;
+    }
+}
+@media(min-width:576px) and (max-width:768px) {
+
+
+
+
 }
