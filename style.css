@@ -24,7 +24,6 @@ h1 {
     text-align: center;
     color: white;
     font-size: 2em;
-
 }
 
 #navbar ul {
@@ -38,7 +37,6 @@ h1 {
     list-style: none;
     font-size: 1em;
     height: 27px;
-
 }
 
 #navbar ul li a {
@@ -60,21 +58,9 @@ input[type="text"] {
     height: 20px;
 }
 
-
-
-
 #navigation {
-
-
-    position: absolute;
-    bottom: 7em;
-    height: 30%;
-    opacity: 0.7;
-    z-index: 111;
-}
-
-#navigation ul {
     position: fixed;
+    top: 12rem;
     background-color: rgb(0, 0, 0);
     height: 30%;
     width: 8%;
@@ -82,7 +68,8 @@ input[type="text"] {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    opacity: 0.7;
+    z-index: 111;
 }
 
 #navigation li {
@@ -96,14 +83,12 @@ input[type="text"] {
     position: relative;
     bottom: -2em;
     font-size: 20px;
-
 }
 
 .home {
     position: relative;
     z-index: -1;
 }
-
 
 .img {
     position: relative;
@@ -126,29 +111,9 @@ input[type="text"] {
     align-items: center;
 }
 
-.advanture button.btn2 {
-    height: 7%;
-    width: 17%;
-    cursor: pointer;
-    background: transparent;
-    color: rgb(121, 22, 22);
-    font-size: 18px;
-    transition: ease;
-}
-
-.advanture button.btn2:hover hover {
-    background-color: white;
-    color: black;
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
-    transform: translateY(-10px);
-
-
-}
-
-
 .adventure h1 {
     color: white;
-    font-size: 4em;
+    font-size: 50px;
     width: 50%;
 }
 
@@ -158,11 +123,10 @@ input[type="text"] {
     width: 1em;
     position: relative;
     top: 200px;
-
 }
 
-button.btn2 {
-    height: 7%;
+.btn2 {
+    height: 50px;
     width: 15%;
     background-color: transparent;
     color: white;
@@ -171,11 +135,10 @@ button.btn2 {
     font-family: auto;
 }
 
-
-/* .home .adventure button.btn:hover {
-    background-color: white;
-    color: black;
-} */
+.btn2:hover {
+    background-color: #fff;
+    color: #000;
+}
 
 .container {
     height: 722px;
@@ -187,25 +150,22 @@ button.btn2 {
     width: 100%;
     height: 722px;
     background-color: black;
-
-
 }
 
-
-
 .new {
-    position: relative;
     display: flex;
     flex-direction: column;
-
+    height: 600px;
+    align-items: center;
+    justify-content: center;
 }
 
 .new h1 {
     font-size: 3em;
     display: flex;
     justify-content: space-around;
-    width: 300px;
-    height: 480px;
+    width: 420px;
+    height: 200px;
     align-items: center;
 }
 
@@ -217,9 +177,7 @@ button.button {
     color: white;
     font-size: large;
     font-family: auto;
-    position: absolute;
-    top: 45%;
-    left: 30%;
+    text-align: center;
 }
 
 button.button:hover {
@@ -230,8 +188,6 @@ button.button:hover {
 .img3 {
     display: flex;
     flex-direction: row;
-
-
 }
 
 
@@ -241,17 +197,15 @@ button.button:hover {
     height: 750px;
     display: flex;
     justify-content: center;
-
 }
 
 .four {
     position: relative;
-    bottom: -4em;
+    top: 100px;
 }
 
 .four h1 {
-    font-size: 3em;
-
+    font-size: 40px;
 }
 
 .four h2 {
@@ -260,24 +214,23 @@ button.button:hover {
 }
 
 .img4 {
-    width: 100%;
-}
-
-.img4 {
     position: absolute;
-    /* left: -17em; */
-    bottom: 13em;
+    width: 100%;
+    height: 600px;
+    align-items: center;
     display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
     justify-content: center;
     text-align: center;
     gap: 60px;
 }
 
 .all {
-    position: relative;
-    top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    line-height: 20px;
 }
 
 img.class {
@@ -287,7 +240,6 @@ img.class {
 .imgA h2 {
     text-decoration: line-through;
     font-size: 12px;
-
 }
 
 .imgB h2 {
@@ -304,7 +256,6 @@ img.class {
     transform: scale(1.1);
 }
 
-
 .img4 h1 {
     font-size: small;
 }
@@ -318,7 +269,7 @@ img.class {
     position: absolute;
     top: 0em;
     width: 35%;
-    height: 78%;
+    height: 80%;
     padding: 3em;
     font-size: 1.5em;
     color: white;
@@ -329,7 +280,8 @@ img.class {
     justify-content: center;
 }
 
-.overlay h3 {
+.us {
+    height: 100px;
     font-size: 2em;
     font-weight: 300;
 }
@@ -340,9 +292,7 @@ img.class {
 
 .img5 img {
     width: 100%;
-    height: 78%;
-
-
+    height: 80%;
 }
 
 .full {
@@ -350,26 +300,19 @@ img.class {
     height: 130vh;
     background-color: black;
     display: flex;
-    justify-content: space-between;
-
-
-}
-
-
-.overall {
-    margin: 30%;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .inputbox {
     color: white;
     display: flex;
-    gap: 10%;
+    gap: 11%;
+    height: 120px;
 }
 
 .inputbox input {
     background-color: transparent;
-
     border-color: white;
     height: 50px;
     width: 16em;
@@ -391,12 +334,16 @@ input {
     background-color: transparent;
     border-color: white;
     height: 50px;
-    width: 34em;
+    width: 37em;
 }
 
 .overall .msg input {
     height: 10em;
-    width: 34em;
+    width: 37em;
+}
+
+.button {
+    text-align: end;
 }
 
 .overall .button button {
@@ -405,17 +352,21 @@ input {
     height: 50px;
     width: 12em;
     border-color: white;
-    position: relative;
-    right: -22em;
-
-
 }
 
 .overall label {
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+.email,
+.sub,
+.button {
+    height: 120px;
+}
 
+.msg {
+    height: 200px;
 }
 
 .contact h1 {
@@ -433,22 +384,20 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10%;
+    justify-content: center;
+    height: 600px;
+    width: 50%;
 }
-
 
 .producthover {
     position: relative;
     width: 29rem;
     height: 29rem;
     overflow: hidden;
-
-
 }
 
 .producthover img {
     transition: all 1.5s;
-
 }
 
 .producthover img :hover {
@@ -469,7 +418,6 @@ input {
     color: white;
     opacity: 0;
     transition: all 0.5s;
-
 }
 
 .producthover:hover .caption {
@@ -485,18 +433,22 @@ input {
     width: 100%;
     height: 77vh;
     background-color: rgb(19, 18, 18);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bin {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    height: 150px;
 }
 
 .bin h1 {
     font-size: 3em;
+    width: 600px;
 }
 
 .bin h2 {
@@ -526,11 +478,14 @@ input {
     align-items: center;
 }
 
+.inp {
+    height: 80px;
+}
+
 .footerpart {
     width: 100%;
     height: 180px;
     background-color: rgb(31, 30, 30);
-
 }
 
 .foot {
@@ -538,7 +493,6 @@ input {
     flex-wrap: wrap;
     height: 150px;
     align-items: center;
-    /* gap: 7em; */
     justify-content: space-around;
     justify-content: center;
     color: white;
@@ -547,8 +501,6 @@ input {
 .com ul {
     display: flex;
     gap: 2em;
-
-
 }
 
 .com ul li {
@@ -565,6 +517,7 @@ input {
     font-weight: 550;
     display: flex;
     gap: 7px;
+    width: 440px;
 }
 
 .fit .wix {
@@ -576,7 +529,7 @@ input {
         width: 100vw;
         height: 80px;
     }
-    
+
     #navbar ul li a {
         font-size: 7px;
 
@@ -614,13 +567,16 @@ input {
     }
 
     .adventure h1 {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     button.btn2 {
         font-size: 10px;
     }
-
+    .btn2 {
+        height: 25px;
+        width: 17%;
+    }
     .adventure h2 {
         font-size: 25px;
     }
@@ -639,6 +595,7 @@ input {
         font-size: 11px;
         height: 140px;
     }
+
     .img2 {
         height: 59%;
         width: 26vw;
@@ -646,7 +603,7 @@ input {
 
     .consept {
         width: 100vw;
-        height: 105.5vh;
+        height: 77.5vh;
         display: flex;
         flex-direction: column;
     }
@@ -655,11 +612,11 @@ input {
         height: 50%;
     }
 
-    
+
     img {
-      height: 83vw;
-      width: 100vw;
-   }
+        height: 63vw;
+        width: 100vw;
+    }
 
     .over {
         height: 152px;
@@ -676,18 +633,19 @@ input {
         font-size: 2em;
     }
 
-    
+
     .overlay h5 {
         height: 91%;
         font-size: 11px;
     }
+
     .producthover img {
         width: 100%;
         height: 20px;
     }
 
     .producthover {
-        
+
         height: 15rem;
     }
 
@@ -700,6 +658,7 @@ input {
         display: flex;
         flex-direction: column;
     }
+
     .contact h1 {
         font-size: 25px;
     }
@@ -779,33 +738,35 @@ input {
     .img3 {
         width: 100vw;
     }
+
     .main {
-        height: 166vh;
+        height: 230vh;
         background-color: black;
     }
+
     .cut {
         height: 660px;
     }
+
     img.class {
         width: 120px;
         height: 150px;
     }
+
     .img4 {
-        
+
         display: flex;
         flex-direction: column;
-        height: 0px;
+        height: 380vw;
     }
-    .fit{
-        font-size:12px;
+
+    .fit {
+        font-size: 12px;
     }
-    .com ul li{
+
+    .com ul li {
         font-size: 10px;
     }
 }
-@media(min-width:576px) and (max-width:768px) {
 
-
-
-
-}
+@media(min-width:576px) and (max-width:768px) {}
