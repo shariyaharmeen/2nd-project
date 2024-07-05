@@ -22,26 +22,44 @@
 
     #navbar {
         width: 100vw;
-        height: 10%;
+        height: 6%;
         gap: 1rem;
     }
 
     #navbar h1 {
         font-size: 13px;
+        width: fit-content;
     }
 
-
+    #navigation{
+        right: 80px;
+    }
     #navigation ul {
-        right: 0%;
+        right: 0px;
         height: 28%;
     }
 
     .img {
         width: 100%;
+        
+    }
+    .img img{
+        height: 100%;
     }
 
     .adventure h1 {
         font-size: 14px;
+        width: 50%;
+    }
+    
+    .adventure h2 {
+        font-size: 25px;
+        width: 1em;
+        top: 0;
+    }
+
+    .adventure{
+        gap: 1rem;
     }
 
     button.btn2 {
@@ -51,56 +69,66 @@
         height: 25px;
         width: 17%;
     }
-    .adventure h2 {
-        font-size: 25px;
-    }
 
     .container {
+        height: 50%;
         display: flex;
         flex-direction: column;
-    }
-
-    button.button {
-        font-size: 8px;
-        height: 15px;
-    }
-
-    .new h1 {
-        font-size: 11px;
-        height: 140px;
-    }
-
-    .img2 {
-        height: 59%;
-        width: 26vw;
     }
 
     .consept {
         width: 100vw;
-        height: 77.5vh;
         display: flex;
         flex-direction: column;
     }
 
-    .container {
-        height: 50%;
+    .new{
+        height: 500px;
     }
+    
+    .new h1 {
+        font-size: 20px;
+        height: 100px;
+        width: auto;
+    }
+    
+    button.button {
+        font-size: 8px;
+        height: 15px;
+        width: 20%;
+    } 
 
-
-    img {
-        height: 63vw;
-        width: 100vw;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .img2 {
+        height: 50%;
+        width: auto;
+    }
+    
+    .img3 {
+        width: 100%;
+    }
+    
+    .producthover {
+        height: 15rem;
+    }
+    
+    .caption h2 {
+        font-size: 12px;
     }
 
     .over {
-        height: 152px;
+        height: auto;
     }
 
     .overlay {
         font-size: 14px;
         padding: 0px;
         margin: 0px;
-        height: 205px;
+        height: 98%;
+        width: 50%;
     }
 
     .overlay h3 {
@@ -118,31 +146,12 @@
         height: 20px;
     }
 
-    .producthover {
-
-        height: 15rem;
-    }
-
-    .caption h2 {
-        font-size: 12px;
-    }
-
-    .full {
-        height: 160vw;
-        display: flex;
-        flex-direction: column;
-    }
-
     .contact h1 {
         font-size: 25px;
     }
 
     .contact h2 {
         font-size: 12px;
-    }
-
-    .overall {
-        margin: 72px;
     }
 
     .four h1 {
@@ -160,17 +169,34 @@
     .four h2 {
         font-size: 9px;
     }
-
+     .full{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+     }
     .fullbin {
-        height: 90vw;
+        height: 87vw;
     }
 
     .outline input {
         width: 72vw;
         height: 15%;
 
+    } 
+
+    .inp{
+        height: 65px;
     }
 
+    .inputbox{
+        height: 100px;
+    }
+    .sub, .button, .email{
+        height: 100px;
+    }
+    .msg{
+        height: 100px;
+    }
     .inputbox input {
         width: 30vw;
         height: 15%;
@@ -208,19 +234,16 @@
         height: 15%;
         font-size: 12px;
     }
-
-    .img3 {
-        width: 100vw;
+     
+    .tech input{
+        height: 20px;
     }
 
     .main {
-        height: 230vh;
-        background-color: black;
+        height: 100%;
     }
 
-    .cut {
-        height: 660px;
-    }
+    
 
     img.class {
         width: 120px;
@@ -231,9 +254,15 @@
 
         display: flex;
         flex-direction: column;
-        height: 380vw;
+        height: 100vh;
+        width: auto;
+        gap: 0px;
+        top: opx;
     }
-
+     .img5 img{
+        width: 100%;
+        height: 100%;
+     }
     .fit {
         font-size: 12px;
     }
@@ -241,6 +270,173 @@
     .com ul li {
         font-size: 10px;
     }
+
 }
 
-@media(min-width:576px) and (max-width:768px) {}
+@media(min-width:576px) and (max-width:786px) {
+
+    #navbar {
+        width: 100vw;
+        height: 8%;
+        gap: 1rem;
+    }
+    #navbar h1{
+        width: 100%;
+        font-size: 20px;
+    }
+    #navbar ul{
+        width: fit-content;
+        font-size: 15px;
+    }
+    
+    input[type="text"] {
+        width: 70px;
+        height: 7px;
+        font-size: 11px;
+    }
+    .btn2 {
+        height: 38px;
+        width: 20%;
+        font-size: 20px;
+       
+    }
+
+    .adventure h2 {
+        
+        font-size: 3em;
+        top: 0px;
+    }
+    .adventure h1{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .consept {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img2 {
+        height: 60%;
+        width: 100%;
+    }
+
+    button.button {
+        width: 33%;
+        height: 15%;
+    }
+
+    .producthover {
+        height: 22rem;
+    }
+
+    .img4 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: auto;
+    }
+
+    img.class {
+        width: 15vw;
+        height: 45%;
+    }
+
+    .over{
+        height: auto;
+    }
+
+    .overlay {
+        height: 60%;
+        width: 25%;
+    }
+
+
+    .us{
+        font-size: 30px;
+    }
+
+    .overlay h5{
+        font-size: 11px;
+    }
+
+    .full {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .overall {
+        margin-top: 20px;
+    }
+
+    .inputbox input{
+        height: 35px;
+        width: 11rem;
+    }
+
+    .outline input{
+        height: 35px;
+        width: 25rem;
+    }
+
+    .overall .button button {
+        height: 40px;
+    }
+
+    .contact {
+        height: 500px;
+        width: 70%;
+    }
+
+    .contact h1{
+        line-height: 3em;
+        font-size: 60px;
+    }
+
+    .bin {
+        font-size: 13px;
+    }
+
+    .bin h2{
+        font-size: 25px;
+    }
+
+    .box input{
+        width: 30em;
+        height: 40px;
+    }
+}
+
+
+@media(min-width:787px) and (max-width:995px){
+
+    nav#navbar {
+        gap: 11rem;
+        width: 86%;
+        height: 7rem;
+    }
+
+    #navbar h1{
+        width: auto;
+        font-size: 27px;
+    }
+
+    nav#navigation {
+        right: 8rem;
+    }
+
+    .adventure h1 {
+        width: 100%;
+    }
+
+    .consept {
+        flex-direction: column;
+    }
+}
