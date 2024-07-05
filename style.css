@@ -19,7 +19,7 @@
     z-index: 1;
 }
 
- h1 {
+h1 {
     width: 310px;
     text-align: center;
     color: white;
@@ -523,4 +523,3 @@ input {
 .fit .wix {
     border-bottom: 1px solid;
 }
-
