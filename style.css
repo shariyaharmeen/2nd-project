@@ -6,7 +6,9 @@
 }
 
 
+
 #navbar {
+
     display: flex;
     align-items: center;
     position: fixed;
@@ -18,8 +20,11 @@
     opacity: 0.7;
     z-index: 1;
 }
+h1{
+    color: white;
+}
 
-h1 {
+ #navbar h1 {
     width: 310px;
     text-align: center;
     color: white;
@@ -83,6 +88,7 @@ input[type="text"] {
     position: relative;
     bottom: -2em;
     font-size: 20px;
+    line-height: 2.5em;
 }
 
 .home {
@@ -119,10 +125,13 @@ input[type="text"] {
 
 .adventure h2 {
     color: white;
-    font-size: 5em;
     width: 1em;
     position: relative;
     top: 200px;
+}
+
+#anglee{
+    font-size: 22px;
 }
 
 .btn2 {
@@ -162,6 +171,7 @@ input[type="text"] {
 
 .new h1 {
     font-size: 3em;
+    color: white;
     display: flex;
     justify-content: space-around;
     width: 420px;
@@ -206,6 +216,8 @@ button.button:hover {
 
 .four h1 {
     font-size: 40px;
+    color: white;
+    text-align: center;
 }
 
 .four h2 {
@@ -214,14 +226,20 @@ button.button:hover {
 }
 
 .img4 {
-    position: absolute;
+    
     width: 100%;
-    height: 600px;
     align-items: center;
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 60px;
+}
+.four-content  {
+    height: 100px;
+}
+.img4 img{
+    transition: transform  0.5s ease-in-out;
+
 }
 
 .all {
@@ -252,7 +270,7 @@ img.class {
     font-size: 12px;
 }
 
-.img4 :hover {
+.img4 img:hover {
     transform: scale(1.1);
 }
 
@@ -448,7 +466,7 @@ input {
 
 .bin h1 {
     font-size: 3em;
-    width: 600px;
+    color: #fff;
 }
 
 .bin h2 {
