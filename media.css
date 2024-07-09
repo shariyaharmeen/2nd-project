@@ -66,10 +66,11 @@
     #navbar h1 {
         font-size: 13px;
         width: fit-content;
+        padding: 5px;
     }
 
     nav#navigation {
-        height: 25%;
+        height: 30%;
         width: 13%;
     }
 
@@ -128,14 +129,14 @@
     }
 
     .new h1 {
-        font-size: 20px;
+        font-size: 25px;
         height: 100px;
         width: auto;
     }
 
     button.button {
         font-size: 8px;
-        height: 15px;
+        height: 30px;
         width: 20%;
     }
 
@@ -175,6 +176,7 @@
 
     .overlay h3 {
         font-size: 2em;
+        padding: 5px;
     }
 
 
@@ -182,6 +184,7 @@
         height: 91%;
         font-size: 11px;
         width: 80%;
+        padding: 5px;
     }
 
     .producthover img {
@@ -228,7 +231,7 @@
 
     .outline input {
         width: 72vw;
-        height: 15%;
+        height: 3vh;
 
     }
 
@@ -252,18 +255,18 @@
 
     .inputbox input {
         width: 30vw;
-        height: 15%;
+        height: 3vh;
     }
 
     .overall .msg input {
         width: 72vw;
-        height: 15%;
+        height: 6vh;
     }
 
     .overall .button button {
         width: 21vw;
         left: 53vw;
-        height: 15%;
+        height: 3vh;
     }
 
     .overall label {
@@ -284,7 +287,7 @@
 
     .box input {
         width: 60vw;
-        height: 15%;
+        height: 30%;
         font-size: 12px;
     }
 
@@ -425,7 +428,7 @@
     }
 
     button.button {
-        width: 33%;
+        width: 25%;
         height: 15%;
     }
 
@@ -455,7 +458,7 @@
     }
 
     .overlay {
-        height: 60%;
+        height: 58%;
         width: 25%;
     }
 
