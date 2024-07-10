@@ -15,7 +15,7 @@
     height: 15%;
     width: 100%;
     flex-direction: row;
-    gap: 27rem;
+    justify-content: space-between;
     background-color: rgb(0, 0, 0);
     opacity: 0.7;
     z-index: 1;
@@ -72,6 +72,7 @@ input[type="text"] {
     right: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     opacity: 0.7;
     z-index: 111;
@@ -85,8 +86,6 @@ input[type="text"] {
 
 #navigation li a {
     color: rgb(255, 255, 255);
-    position: relative;
-    bottom: -2em;
     font-size: 20px;
     line-height: 2.5em;
 }
@@ -104,6 +103,7 @@ input[type="text"] {
 
 .img img {
     width: 100%;
+
 }
 
 .adventure {
@@ -149,24 +149,24 @@ input[type="text"] {
     color: #000;
 }
 
-.container {
+/* .container {
     height: 722px;
-}
+} */
 
 .consept {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 722px;
-    background-color: black;
+    /* justify-content: space-between; */
+    height: 600px;
+    
 }
 
 .new {
     display: flex;
     flex-direction: column;
-    height: 600px;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    width: 50%;
 }
 
 .new h1 {
@@ -174,8 +174,6 @@ input[type="text"] {
     color: white;
     display: flex;
     justify-content: space-around;
-    width: 420px;
-    height: 200px;
     align-items: center;
 }
 
@@ -195,23 +193,29 @@ button.button:hover {
     color: black;
 }
 
+.img2 img{
+    width: 50vw;
+    height: 600px;
+}
+
 .img3 {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 
 .cut {
     background-color: black;
     width: 100%;
-    height: 750px;
+    /* height: 750px; */
     display: flex;
     justify-content: center;
 }
 
 .four {
     position: relative;
-    top: 100px;
+    /* top: 100px; */
 }
 
 .four h1 {
@@ -233,9 +237,19 @@ button.button:hover {
     justify-content: center;
     text-align: center;
     gap: 60px;
+    padding: 40px 0px;
+}
+
+.imgA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:45px
+
 }
 .four-content  {
-    height: 100px;
+   padding: 12px 0px;
 }
 .img4 img{
     transition: transform  0.5s ease-in-out;
@@ -247,7 +261,7 @@ button.button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    /* height: 200px; */
     line-height: 20px;
 }
 
@@ -280,15 +294,15 @@ img.class {
 
 .over {
     position: relative;
-    height: 640px;
+    /* height: 640px; */
 }
 
 .overlay {
     position: absolute;
     top: 0em;
-    width: 35%;
-    height: 89%;
-    padding: 3em;
+    width: 50%;
+    height: 100%;
+    /* padding: 3em; */
     font-size: 1.5em;
     color: white;
     background-color: rgb(0, 0, 0);
@@ -310,12 +324,16 @@ img.class {
 
 .img5 img {
     width: 100%;
-    height: 80%;
+    /* height: 80%; */
+}
+
+.img5{
+    position: relative;
 }
 
 .full {
     width: 100%;
-    height: 130vh;
+    /* height: 130vh; */
     background-color: black;
     display: flex;
     justify-content: center;
@@ -364,6 +382,10 @@ input {
     text-align: end;
 }
 
+.overall {
+    padding: 15px;
+}
+
 .overall .button button {
     background-color: transparent;
     color: white;
@@ -409,13 +431,13 @@ input {
 
 .producthover {
     position: relative;
-    width: 29rem;
-    height: 29rem;
     overflow: hidden;
+    width: 33%;
 }
 
 .producthover img {
     transition: all 1.5s;
+    width: 100%;
 }
 
 .producthover img :hover {
