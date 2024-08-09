@@ -92,7 +92,7 @@ input[type="text"] {
 
 .home {
     position: relative;
-    z-index: -1;
+   
 }
 
 .img {
@@ -294,7 +294,8 @@ img.class {
 
 .over {
     position: relative;
-    /* height: 640px; */
+    height: 100%;
+    max-height: 600px;
 }
 
 .overlay {
@@ -324,7 +325,8 @@ img.class {
 
 .img5 img {
     width: 100%;
-    /* height: 80%; */
+    height: 100%;
+    max-height:600px;
 }
 
 .img5{

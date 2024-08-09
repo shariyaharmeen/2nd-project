@@ -124,10 +124,6 @@
         font-size: 12px;
     }
 
-    .over {
-        height: auto;
-    }
-
     .overlay {
         font-size: 14px;
         padding: 0px;
@@ -275,11 +271,7 @@
         top: opx;
     }
 
-    .img5 img {
-        width: 100%;
-        height: 100%;
-    }
-
+     
     .fit {
         font-size: 12px;
         width: 60%;
@@ -374,10 +366,7 @@
         height: 45%;
     }
 
-    .over {
-        height: auto;
-    }
-
+   
     .overlay {
         width: 50%;
     }
@@ -504,9 +493,7 @@
         width: 15vw;
         height: 43%;
     }
-    .over {
-        height: auto;
-    }
+    
 
     .overlay {
         height: 77%;
@@ -572,10 +559,7 @@
         margin: 3em;
     }
 
-    .over {
-        height: fit-content;
-    }
-
+    
 
 
     .full {
